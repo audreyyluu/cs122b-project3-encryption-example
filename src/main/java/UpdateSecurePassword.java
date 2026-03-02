@@ -22,8 +22,8 @@ public class UpdateSecurePassword {
    */
   public static void main(String[] args) throws Exception {
 
-    String loginUser = "repl";
-    String loginPasswd = "slave66Pass$word";
+    String loginUser = "root";
+    String loginPasswd = "My6$Password";
     String loginUrl = "jdbc:mysql://localhost:3306/moviedb";
 
     Class.forName("com.mysql.cj.jdbc.Driver");
