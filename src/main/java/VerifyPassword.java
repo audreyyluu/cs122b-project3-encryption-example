@@ -26,7 +26,7 @@ public class VerifyPassword {
 
 	private static boolean verifyCredentials(String email, String password) throws Exception {
 		
-		String loginUser = "root";
+		String loginUser = "mytestuser";
 		String loginPasswd = "My6$Password";
 		String loginUrl = "jdbc:mysql://localhost:3306/moviedb";
 
