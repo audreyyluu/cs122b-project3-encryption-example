@@ -28,7 +28,7 @@ public class VerifyPassword {
 		
 		String loginUser = "mytestuser";
 		String loginPasswd = "My6$Password";
-		String loginUrl = "jdbc:mysql://localhost:3306/moviedb";
+		String loginUrl = "jdbc:mysql://mysql-primary:3306/moviedb";
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection connection = DriverManager.getConnection(loginUrl, loginUser, loginPasswd);
